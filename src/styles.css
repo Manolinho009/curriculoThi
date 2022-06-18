@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+    --fundo: #111111;
+    --vermelho: #E40914;
+}
+
+
+.buttonp {
+    transition-duration: 0.4s;
+    background-color: #333333; 
+    color: white;
+    border: none;
+    text-align: center;
+
+    width: 10rem;
+    height: 3rem;
+    border-radius: 12px;
+  }
+  
+  .buttonp:hover {
+    background-color: #ffffff; 
+    color: rgb(0, 0, 0);
+    
+  }
+
+
+.main{
+
+background-color: var(--fundo);
+
+}
